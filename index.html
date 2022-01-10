@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+		<title>Tim Seneker</title>
+        <link rel="stylesheet" href="./CSS/portfolio.css">
+	</head>
+	<body>
+        <div class="navbar">
+            <a href="#home">Home</a>
+            <a href="#github">GitHub</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!--Navbar spacing-->
+        <br>
+        <br>
+
+        <!--Header video loop-->
+        <div id="home" class="keyvid">
+            <video autoplay loop muted id="keycrop" width="1920" height="1080">
+                <source src="./Videos/Keyboard.webm" type="video/webm">
+                Cannot show video
+            </video>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="Header_Overlay" align="center">
+            <h1>Tim Seneker's Portfolio</h1>
+            <br>
+            <p>Cinematographer and editor, and Software Developer.</p>
+            <p>Welcome to my home site. Check out my background and experience!</p>
+            <p>Thank you for stopping by and enjoy your visit!</p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <div class="row" id="about">
+            <div class="Column_1">
+                <h1>About</h1>
+                <br>
+                <p>
+                    I am a software developer with a background in cinematography and video editing.
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, Python, C# and more.
+                    <br>
+                    <br>I am a full stack developer and would love to work with you on your project.  <a href="#contact">Contact</a> me below!
+                </p>
+
+            </div>
+            <div class="Column_2">
+                <img src="./Images/Sledge.jpg">
+            </div>
+        </div>
+        <div class="row" id="github">
+            <div class="Column_2" align="center">
+                <h1>GitHub</h1>
+                <br>
+                <strong>
+                    <h2>
+                        You can view my coding projects on my GitHub profile here:
+                        <br>
+                        <br><a href="https://github.com/CameraTim">Tim Seneker's GitHub</a>
+                    </h2>
+                </strong>
+            </div>
+            <div class="Column_1">
+                <img src="./Images/DSCF2360.jpg">
+            </div>
+        </div>
+        <div class="row" id="contact">
+            <div class="Column_1">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/meqnolkw" method="post">
+                    <label>Name:</label>
+                        <input type="text" id="Name" placeholder="Please enter your name">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please send your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+            <div class="Column_2">
+                <img src="./Images/DSCF2361.jpg">
+            </div>
+        </div>
+	</body>
+    <footer>
+        <p style="font-size: x-large" align="center">
+            &copy; Tim Seneker
+        </p>
+    </footer>
+</html>

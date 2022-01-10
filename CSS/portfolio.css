@@ -1,0 +1,166 @@
+body {
+    margin: 0%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.row h1 {
+    transition: 1s;
+}
+
+.row h1:hover {
+    color: white;
+    transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Header_Overlay {
+    color: white;
+}
+
+.Header_Overlay p {
+    font-size: 18px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    height: 50px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    width: 50px;
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: .25s;
+}
+
+.navbar a:hover {
+    background-color: rgb(185, 185, 185);
+    color: black;
+    font-weight: bold;
+    transition: .25s;
+}
+
+.keyvid {
+    position: relative;
+    width: 100%;
+}
+
+#keycrop {
+    margin-top: -280px;
+}
+
+video, source {
+    position: fixed;
+    width: 100%;
+    min-width: 1920px;
+    display: block;
+    overflow: hidden;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: rgb(211, 225, 255);
+
+}
+
+.Column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: rgb(106, 113, 136);
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    max-width: 506px;
+    filter: drop-shadow(10px 10px 20px black) saturate(25%);
+    transition: .5s;
+}
+
+img:hover {
+    opacity: 75%;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(20, 20, 50);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+    transition: .25s;
+}
+
+input[type=text]:hover {
+    box-shadow: 0 0 5px rgb(10, 10, 66);
+    transition: .25s;
+}
+
+input[type=submit] {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .25s;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(24, 47, 90);
+    color: white;
+    transition: .25s;
+}
+
+form {
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
